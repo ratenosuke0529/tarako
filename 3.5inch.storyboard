@@ -1,7 +1,326 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="27h-SB-0VI">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
-    <scenes/>
+    <customFonts key="customFonts">
+        <mutableArray key="ZinHena-MK.otf">
+            <string>ZinHena-MK</string>
+            <string>ZinHena-MK</string>
+            <string>ZinHena-MK</string>
+            <string>ZinHena-MK</string>
+            <string>ZinHena-MK</string>
+            <string>ZinHena-MK</string>
+            <string>ZinHena-MK</string>
+            <string>ZinHena-MK</string>
+            <string>ZinHena-MK</string>
+            <string>ZinHena-MK</string>
+            <string>ZinHena-MK</string>
+            <string>ZinHena-MK</string>
+            <string>ZinHena-MK</string>
+            <string>ZinHena-MK</string>
+            <string>ZinHena-MK</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="CYB-4Y-tYc">
+            <objects>
+                <viewController id="27h-SB-0VI" customClass="ViewController" customModule="shiwake_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nlm-Uv-Ytg"/>
+                        <viewControllerLayoutGuide type="bottom" id="zto-5M-PNd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ioz-Fo-p7y">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vegitable01-043.gif" translatesAutoresizingMaskIntoConstraints="NO" id="RuM-ch-WrS">
+                                <rect key="frame" x="171" y="279" width="155" height="128"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vegitable01-001.gif" translatesAutoresizingMaskIntoConstraints="NO" id="Dp7-gB-dnX">
+                                <rect key="frame" x="-6" y="282" width="157" height="122"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food_tarako.png" translatesAutoresizingMaskIntoConstraints="NO" id="5DV-9s-eLn">
+                                <rect key="frame" x="-24" y="151" width="169" height="90"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food_mentaiko.png" translatesAutoresizingMaskIntoConstraints="NO" id="UFO-xl-U7Y">
+                                <rect key="frame" x="171" y="147" width="183" height="98"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="？" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7sv-HU-Kek">
+                                <rect key="frame" x="129" y="226" width="115" height="71"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="ZinHena-MK" family="ZinHena-MK" pointSize="54"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="or" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHz-9P-Akv">
+                                <rect key="frame" x="139" y="63" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="ZinHena-MK" family="ZinHena-MK" pointSize="21"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="めんたいこ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bgf-es-GMu">
+                                <rect key="frame" x="65" y="92" width="190" height="47"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="ZinHena-MK" family="ZinHena-MK" pointSize="38"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZM-Xl-srl">
+                                <rect key="frame" x="85" y="393" width="150" height="110"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="ZinHena-MK" family="ZinHena-MK" pointSize="37"/>
+                                <state key="normal" title="スタート">
+                                    <color key="titleColor" red="0.02745098248" green="0.02745098248" blue="0.058823533359999999" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="rYu-n5-OJI" kind="modal" id="2Um-Hx-AMg"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aaa.png" translatesAutoresizingMaskIntoConstraints="NO" id="63E-Mi-MVG">
+                                <rect key="frame" x="-6" y="126" width="419" height="507"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="たらこ " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mov-bg-6kM">
+                                <rect key="frame" x="-6" y="-41" width="332" height="171"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="ZinHena-MK" family="ZinHena-MK" pointSize="38"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4aT-sU-XV1" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="73" y="474"/>
+        </scene>
+        <!--View Controllera-->
+        <scene sceneID="IlU-TQ-rhM">
+            <objects>
+                <viewController id="rYu-n5-OJI" customClass="ViewControllera" customModule="shiwake_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A9I-fX-srk"/>
+                        <viewControllerLayoutGuide type="bottom" id="umc-3J-p2b"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bFZ-HU-Dn0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmE-Fa-Mvx">
+                                <rect key="frame" x="16" y="338" width="282" height="47"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.97254908080000002" blue="0.039215687659999998" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="ZinHena-MK" family="ZinHena-MK" pointSize="24"/>
+                                <color key="tintColor" red="0.0" green="0.74901962280000001" blue="0.65882354970000001" alpha="1" colorSpace="deviceRGB"/>
+                                <state key="normal" title="キャベツ・レタス　へん">
+                                    <color key="titleColor" red="1" green="0.36078432199999999" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Uku-oY-s1N" kind="modal" id="qFv-dt-34q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlb-Od-Muu">
+                                <rect key="frame" x="16" y="418" width="282" height="47"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.99607849120000003" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="ZinHena-MK" family="ZinHena-MK" pointSize="23"/>
+                                <state key="normal">
+                                    <string key="title" base64-UTF8="YES">
+44Gf44KJ44GTCOODu+OCgeOCk+OBn+OBhOOBk+OAgOOBuOOCkw
+</string>
+                                    <color key="titleColor" red="0.0" green="1" blue="0.4274510145" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Vmy-2b-qcW" kind="modal" id="H8A-zn-1fG"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="o.png" translatesAutoresizingMaskIntoConstraints="NO" id="SaD-QH-Ukg">
+                                <rect key="frame" x="20" y="43" width="279" height="394"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8a4-ic-PNA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="543" y="346"/>
+        </scene>
+        <!--View Controllerb-->
+        <scene sceneID="j0U-Aq-qj0">
+            <objects>
+                <viewController id="Vmy-2b-qcW" customClass="ViewControllerb" customModule="shiwake_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fff-Nj-yrX"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Uk-BM-str"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iKA-wk-USW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KYU-Zd-eN6">
+                                <rect key="frame" x="16" y="28" width="128" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.050980396570000003" green="0.058823533359999999" blue="0.019607843829999999" alpha="1" colorSpace="deviceRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dqJ-Wl-7VU">
+                                <rect key="frame" x="178" y="28" width="128" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.019607843829999999" green="0.050980396570000003" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food_tarako.png" translatesAutoresizingMaskIntoConstraints="NO" id="KlI-r2-WZv">
+                                <rect key="frame" x="96" y="335" width="128" height="128"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="たらこ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MFH-PG-Y6s">
+                                <rect key="frame" x="42" y="67" width="76" height="49"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="ZinHena-MK" family="ZinHena-MK" pointSize="25"/>
+                                <color key="textColor" red="0.9450981021" green="0.36078432199999999" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="highlightedColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="めんたいこ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GL0-pl-qPW">
+                                <rect key="frame" x="178" y="81" width="126" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="ZinHena-MK" family="ZinHena-MK" pointSize="25"/>
+                                <color key="textColor" red="0.96078437569999997" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HmS-Re-opK">
+                                <rect key="frame" x="66" y="259" width="189" height="49"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="ZinHena-MK" family="ZinHena-MK" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ng5-sd-zfO">
+                                <rect key="frame" x="189" y="449" width="131" height="31"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.24313727020000001" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="ZinHena-MK" family="ZinHena-MK" pointSize="16"/>
+                                <state key="normal" title="タイトルへもどる">
+                                    <color key="titleColor" red="0.019607843829999999" green="0.090196080509999998" blue="0.023529414089999999" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="27h-SB-0VI" kind="modal" id="Gdf-yl-Pyx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="image1" destination="KYU-Zd-eN6" id="bYS-k5-wiO"/>
+                        <outlet property="image2" destination="dqJ-Wl-7VU" id="wgc-cn-0VU"/>
+                        <outlet property="label" destination="HmS-Re-opK" id="IE6-g1-8L2"/>
+                        <outlet property="moveimage" destination="KlI-r2-WZv" id="WKs-D1-rc4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MdZ-Kv-kT8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1156" y="18"/>
+        </scene>
+        <!--View Controllerc-->
+        <scene sceneID="a5n-bo-bWm">
+            <objects>
+                <viewController id="Uku-oY-s1N" customClass="ViewControllerc" customModule="shiwake_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="buQ-B3-Lx5"/>
+                        <viewControllerLayoutGuide type="bottom" id="cg1-Kq-A2F"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7aX-xl-qkD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ue9-nE-KQk">
+                                <rect key="frame" x="176" y="28" width="128" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.023529414089999999" green="0.023529414089999999" blue="0.0078431377190000002" alpha="1" colorSpace="deviceRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jyc-zX-sYf">
+                                <rect key="frame" x="16" y="28" width="128" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.050980396570000003" green="0.039215687659999998" blue="0.0078431377190000002" alpha="1" colorSpace="deviceRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vegitable01-043.gif" translatesAutoresizingMaskIntoConstraints="NO" id="h1L-uG-znb">
+                                <rect key="frame" x="96" y="348" width="128" height="128"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="キャベツ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j5n-4b-du8">
+                                <rect key="frame" x="25" y="81" width="110" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="ZinHena-MK" family="ZinHena-MK" pointSize="26"/>
+                                <color key="textColor" red="0.0" green="0.8078432083" blue="0.043137256059999997" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="レタス" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U40-PY-swO">
+                                <rect key="frame" x="201" y="79" width="78" height="26"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="ZinHena-MK" family="ZinHena-MK" pointSize="26"/>
+                                <color key="textColor" red="0.0" green="0.75686281919999998" blue="0.2823529541" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXN-ZX-ujx">
+                                <rect key="frame" x="66" y="217" width="189" height="49"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="ZinHena-MK" family="ZinHena-MK" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OYU-fh-jgs">
+                                <rect key="frame" x="189" y="449" width="131" height="31"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="ZinHena-MK" family="ZinHena-MK" pointSize="16"/>
+                                <state key="normal" title="タイトルへもどる">
+                                    <color key="titleColor" red="0.019607843829999999" green="0.090196080509999998" blue="0.023529414089999999" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="27h-SB-0VI" kind="modal" id="Pdo-j2-z8B"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="image1" destination="jyc-zX-sYf" id="RnF-O2-6Lf"/>
+                        <outlet property="image2" destination="ue9-nE-KQk" id="eRg-gQ-cpN"/>
+                        <outlet property="label" destination="cXN-ZX-ujx" id="7B3-WT-ESX"/>
+                        <outlet property="moveimage" destination="h1L-uG-znb" id="duf-qR-03v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dnB-9L-cew" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1156" y="679"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="aaa.png" width="2480" height="3789"/>
+        <image name="food_mentaiko.png" width="400" height="307"/>
+        <image name="food_tarako.png" width="400" height="307"/>
+        <image name="o.png" width="2480" height="3789"/>
+        <image name="vegitable01-001.gif" width="64" height="64"/>
+        <image name="vegitable01-043.gif" width="64" height="64"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Pdo-j2-z8B"/>
+    </inferredMetricsTieBreakers>
 </document>

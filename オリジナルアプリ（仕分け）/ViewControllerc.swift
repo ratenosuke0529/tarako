@@ -8,8 +8,15 @@
 
 import UIKit
 
-class ViewController__: UIViewController {
-
+class ViewControllerc: UIViewController {
+    
+    @IBOutlet var image1: UIImageView!
+    @IBOutlet var image2: UIImageView!
+    @IBOutlet var moveimage: UIImageView!
+    var isMoveOn: Bool = false
+    var hantei: Int = 0
+    @IBOutlet var label: UILabel!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,6 +27,50 @@ class ViewController__: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?)
+    {
+        let touch: UITouch = touches.first as! UITouch!
+        let location: CGPoint = touch.locationInView(self.view)
+        if location.y >= moveimage.center.y-64 && location.y <= moveimage.center.y+64 && location.x >= moveimage.center.x-64 && location.x <= moveimage.center.x+64 {
+            
+        }
+    }
+    
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        
+        let touch: UITouch = touches.first as! UITouch!
+        let location: CGPoint = touch.locationInView(self.view)
+        
+        moveimage.center = location
+        
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        
+        let touch: UITouch = touches.first as! UITouch!
+        let location: CGPoint = touch.locationInView(self.view)
+        
+        moveimage.center = location
+        
+        if CGRectContainsPoint(image1.frame, moveimage.center) {
+            
+            label.text = "せいかい"
+            
+        }else if CGRectContainsPoint(image2.frame, moveimage.center) {
+            
+            label.text = "ふせいかい"
+            
+        }
+        
+      
+            
+        
+        
+    }
+    
+        
+
     
 
     /*
